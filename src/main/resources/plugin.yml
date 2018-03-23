@@ -1,0 +1,46 @@
+name: kmchat
+main: kmchat.Core
+version: 0.8
+commands:
+   me:
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   tell:
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   msg:
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   ingamerestart:
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   alwaysgm:      
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   alwaysbuild:      
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   alwaysbuilder:      
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+   react:      
+      description: Nothing
+      usage: /<command>
+      permission-message: You don't have <permission>
+permissions:
+    KMChat.tell:
+        description: Allow to tell
+        default: op
+    KMChat.gm:
+        description: GameMaster
+        default: op
+    KMChat.builder:
+        description: GameMaster
+        default: op

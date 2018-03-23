@@ -1,0 +1,6 @@
+package kmchatTest;
+
+class CoreTest {
+	
+	
+}
